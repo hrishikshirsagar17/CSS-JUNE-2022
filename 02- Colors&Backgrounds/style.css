@@ -1,0 +1,21 @@
+/* . --> represent a class in css
+# --> represent an ID in css */
+
+/* Ways to apply color in css
+1) color name
+2) RGB --> 0 to 255
+3) Hex code --> 0 to f --> 0-9, 10->A, 11->B, 12->C, 13->D, 14->E, 15->F 
+    #fff --> f->R, f->G, f->B
+    #ffffff --> ff->R, ff->G, ff->B
+4) HSL --> h-> hue, s-> saturation, l-> lightness
+ */
+
+.red{
+    background-color: rgb(57, 222, 27);
+    color: hsl(20, 70%, 70%);
+}
+
+.green{
+    background-color: #167ED3;
+    color: aqua;
+}
